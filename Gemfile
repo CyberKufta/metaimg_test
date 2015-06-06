@@ -9,6 +9,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'bootstrap-sass',     '~> 3.2.0.0'
 
 group :development, :test do
   gem 'byebug'
@@ -16,6 +17,7 @@ group :development, :test do
   gem 'spring'
   gem 'rspec-rails', '~> 3.1'
   gem 'capybara',    '~> 2.4.4' 
+  gem 'database_cleaner'
 end
 
 group :production do
