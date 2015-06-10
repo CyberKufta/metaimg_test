@@ -1,6 +1,15 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+/* images */
+
+#images {
+  list-style: none;
+
+  li {
+    display: inline;
+  }
+}
 /* body */
 
 body {
