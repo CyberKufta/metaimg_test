@@ -1,5 +1,7 @@
-<%= form_for @image, url: images_path, html: { multipart: true }  do |f| %>
-  <%= f.label :file %>
-  <%= f.file_field :file, class: "form-control" %>
-  <%= f.submit "Upload Image" %>
+<%= form_for @image, html: { class: "dropzone", id: "media-dropzone" } do |f| %>
+  <div class="fallback">
+    <%= f.file_field :file, multiple: true%>
+  </div>
+
+
 <% end %>

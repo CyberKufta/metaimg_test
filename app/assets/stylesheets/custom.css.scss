@@ -1,6 +1,11 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+/* dropzone */
+#media-dropzone {
+  height: 200px;
+  width: 200px;
+}
 /* images */
 
 #images {
